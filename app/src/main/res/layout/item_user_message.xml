@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/item_user_message.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="16dp"
+    android:background="@drawable/white_color_corners_20"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/userMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, this is a user message."
+        android:textColor="@color/black"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="20dp" />
+
+    <!-- Add any additional views for user messages here if needed -->
+
+</LinearLayout>

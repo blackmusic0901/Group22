@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/chatCardView"
+    app:contentPadding="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileimage"
+            android:layout_width="86dp"
+            android:layout_height="72dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/match_pic1" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/onlinestatus"
+            android:layout_width="23dp"
+            android:layout_height="21dp"
+            android:layout_alignBottom="@+id/profileimage"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="58dp"
+            android:layout_marginBottom="3dp"
+            android:src="#32CD32" />
+
+        <TextView
+            android:id="@+id/nameonline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_toEndOf="@+id/profileimage"
+            android:layout_toRightOf="@+id/profileimage"
+            android:text="His Name"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lastmessge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/onlinestatus"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="-39dp"
+            android:layout_toEndOf="@+id/profileimage"
+            android:layout_toRightOf="@+id/profileimage"
+            android:maxLines="2"
+            android:text="Last Message"
+            android:textColor="@color/black" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:src="@color/white" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

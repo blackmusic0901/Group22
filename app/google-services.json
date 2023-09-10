@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "524888820012",
+    "firebase_url": "https://assignment-login-registe-78574-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "assignment-login-registe-78574",
+    "storage_bucket": "assignment-login-registe-78574.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524888820012:android:0ce378ed17a8e5ec194489",
+        "android_client_info": {
+          "package_name": "my.edu.utar.assignment20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524888820012-nln1r1r0j2l775c6a9u5ukp00ppenklp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK8biTXz_vVybibCmcSuPAMA-Ij60gpGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524888820012-nln1r1r0j2l775c6a9u5ukp00ppenklp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

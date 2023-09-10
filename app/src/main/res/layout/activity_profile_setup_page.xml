@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".ProfileSetup_page">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:fontFamily="@font/italianno"
+        android:gravity="center"
+        android:text="Profile Setup"
+        android:textColor="@color/black"
+        android:textSize="70dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lifestyle"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                tools:layout_editor_absoluteX="-2dp"
+                tools:layout_editor_absoluteY="269dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <CheckBox
+                        android:id="@+id/cbMinimalist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:text="Minimalist"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:ems="10"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <CheckBox
+                        android:id="@+id/cbActive"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Active"
+                        android:ems="10"
+                        android:layout_marginLeft="10dp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cbSustainable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Sustainable"
+                        android:ems="10"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <CheckBox
+                        android:id="@+id/cbNomadic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Nomadic"
+                        android:ems="10"
+                        android:layout_marginLeft="10dp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cbSocialite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Socialite"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <CheckBox
+                        android:id="@+id/cbFrugal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Frugal"
+                        android:layout_marginLeft="10dp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Hobby"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                tools:layout_editor_absoluteX="-2dp"
+                tools:layout_editor_absoluteY="269dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <CheckBox
+                        android:id="@+id/cbRunning"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Running"
+                        android:ems="10"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <CheckBox
+                        android:id="@+id/cbReading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Reading"
+                        android:ems="10"
+                        android:layout_marginLeft="10dp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cbCooking"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Cooking"
+                        android:ems="10"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <CheckBox
+                        android:id="@+id/cbGaming"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Gaming"
+                        android:ems="10"
+                        android:layout_marginLeft="10dp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cbGardening"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Gardening"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <CheckBox
+                        android:id="@+id/cbPhotography"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Photography"
+                        android:layout_marginLeft="10dp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Personality"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                tools:layout_editor_absoluteX="-2dp"
+                tools:layout_editor_absoluteY="269dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <CheckBox
+                        android:id="@+id/cbExtroverted"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Extroverted"
+                        android:ems="10"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <CheckBox
+                        android:id="@+id/cbIntroverted"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Introverted"
+                        android:ems="10"
+                        android:layout_marginLeft="10dp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cbOptimistic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Optimistic"
+                        android:ems="10"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <CheckBox
+                        android:id="@+id/cbAnalytical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Analytical"
+                        android:ems="10"
+                        android:layout_marginLeft="10dp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <CheckBox
+                        android:id="@+id/cbEmpathetic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Empathetic"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <CheckBox
+                        android:id="@+id/cbAmbitious"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:background="@drawable/checkbox_background"
+                        android:text="Ambitious"
+                        android:layout_marginLeft="10dp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/PSNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:background="@drawable/white_color_corners_90"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
